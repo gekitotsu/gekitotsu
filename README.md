@@ -1,24 +1,49 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## west-objectsテーブル
 
-* Ruby version
+|Column|Type|Options|
+|------|----|-------|
+|word|string|null: false|
 
-* System dependencies
+### Association
+- has_many :west-reviews
 
-* Configuration
 
-* Database creation
+## east-objectsテーブル
 
-* Database initialization
+|Column|Type|Options|
+|------|----|-------|
+|word|string|null: false|
 
-* How to run the test suite
+### Association
+- has_many :east-reviews
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## west-reviewsテーブル
 
-* ...
+|Column|Type|Options|
+|------|----|-------|
+|text|text||
+|good_count|integer||
+|bad_count|integer||
+|west-objects-id|integer|foreign-key: true, null: false|
+
+### Association
+- belongs_to :west-object
+
+
+## east-reviewsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|text|text||
+|good_count|integer||
+|bad_count|integer||
+|east-objects-id|integer|foreign-key: true, null: false|
+
+### Association
+- belongs_to :east-object
+
+https://user-images.githubusercontent.com/35890818/37762634-39919212-2e00-11e8-8fe1-05eafb6c107d.png
