@@ -11,28 +11,27 @@
 
 .header_title {
   font-size: 50px;
-  text-align: center;
 }
 
 .header_body {
   line-height: 1.6;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .header_show_btn {
   margin-bottom: 40px;
-  text-align: center;
 }
 
 .social_list {
   list-style: none;
   margin-bottom: 100px;
   padding-left: 0;
-  text-align: center;
 }
 
 .social_list_item {
   display: inline-block;
   margin: 0 30px;
+  &:hover {
+    opacity: 0.9;
+  }
 }
