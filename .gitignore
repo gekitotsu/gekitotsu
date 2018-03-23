@@ -12,6 +12,10 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+*.jpg
+*.jpeg
+*.png
 
 # Ignore Byebug command history file.
 .byebug_history
+/config/database.yml
