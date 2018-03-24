@@ -1,0 +1,25 @@
+.post_image
+  .container.bs-docs-section.text-center
+    .row
+      .col-lg-12
+        %h3 お題を投稿する
+    .row
+      .col-lg-12
+        %h5 ライバル関係にある2つのことがらを投稿してみてください。
+    .row.post_content
+      .col-sm-5.west_post
+        .form-group
+          %input#inputSmall.form-control.input-sm.west_post_input{:type => "text"}
+      .col-sm-2
+        .post_versus vs
+      .col-sm-5.east_post
+        .form-group
+          %input#inputSmall.form-control.input-sm.east_post_input{:type => "text"}
+    .row
+      .col-lg-12
+        %p.bs-component
+          %a.btn.btn-primary{:href => "#"} 投稿する
+    .row
+      .col-lg-12
+        %h6 投稿できるお題は各50文字以内です。
+

@@ -5,20 +5,17 @@
         .page-header.page_header_border
           %h1#type.header_title ゲキトツ
     .row
-      .col-lg-12
-        .bs-component
-          %h4.header_body いつも宿敵、ライバルとして憎み合い、争い合う二人。<br>たまには言いたいことを遠慮なく吐き出してみませんか？
-      .col-lg-12
-        .bs-component
-          %p.bs-component.header_show_btn
-            %a.btn.btn-primary{:href => "#"} もっと詳しく
-      .col-lg-12
-        .bs-component
-          .header_social
-            %ul.social_list
-              %li.social_list_item
-                = link_to image_tag('twitter.png', size: "50x50")
-              %li.social_list_item
-                = link_to image_tag('facebook.png', size: "50x50")
-              %li.social_list_item
-                = link_to image_tag('b_hatena.png', size: "50x50")
+      .col-lg-4
+        %h4.header_body いつも宿敵、ライバルとして憎み合い、争い合う二人。<br>たまには言いたいことを遠慮なく吐き出してみませんか？
+      .col-lg-4
+        %p.bs-component.header_show_btn
+          %a.btn.btn-primary{:href => "#"} もっと詳しく
+      .col-lg-4
+        .header_social
+          %ul.social_list
+            %li.social_list_item
+              = link_to image_tag('twitter.png', size: "50x50")
+            %li.social_list_item
+              = link_to image_tag('facebook.png', size: "50x50")
+            %li.social_list_item
+              = link_to image_tag('b_hatena.png', size: "50x50")
