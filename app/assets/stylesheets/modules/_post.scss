@@ -9,18 +9,26 @@
   margin: 20px 0;
 }
 
-.post_versus {
-  margin-bottom: 15px;
-}
-
 .west_post_input {
   background: none;
   border-color: red;
   color: white;
+  &:focus {
+    border-color: red;
+    box-shadow: none;
+  }
+}
+
+.post_versus {
+  margin-bottom: 15px;
 }
 
 .east_post_input {
   background: none;
   border-color: blue;
   color: white;
+  &:focus {
+    border-color: blue;
+    box-shadow: none;
+  }
 }
