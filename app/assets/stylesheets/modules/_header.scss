@@ -1,0 +1,37 @@
+.header_image {
+  background: url(http://taiketsu.co/wp-content/themes/taiketsu/img/bg.jpg);
+  color: white;
+  padding-top: 81px;
+}
+
+.page_header_border {
+  border: none;
+  margin: 90px 0 50px;
+}
+
+.header_title {
+  font-size: 50px;
+}
+
+.header_body {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.header_show_btn {
+  margin-bottom: 40px;
+}
+
+.social_list {
+  list-style: none;
+  margin-bottom: 100px;
+  padding-left: 0;
+}
+
+.social_list_item {
+  display: inline-block;
+  margin: 0 30px;
+  &:hover {
+    opacity: 0.9;
+  }
+}

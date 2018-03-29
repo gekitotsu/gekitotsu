@@ -1,0 +1,56 @@
+.object_list {
+  margin-bottom: 20px;
+}
+
+.object_btn {
+  border: none;
+  box-shadow: 0 3px 5px #cccccc;
+  width: 100%;
+}
+
+.object_panel {
+  padding: 10px;
+}
+
+.west_object_word {
+  color: red;
+  text-align: left;
+  white-space: normal;
+}
+
+.object_versus {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  height: 35px;
+  margin: 10px auto;
+  line-height: 35px;
+  width: 35px;
+}
+
+.east_object_word {
+  color: blue;
+  text-align: right;
+  white-space: normal;
+}
+
+.object_count {
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.east_count {
+  background-color: red;
+  float: left;
+  width: 24.651162790698%;
+}
+
+.west_count {
+  background-color: blue;
+  float: left;
+  width: 75.348837209302%;
+}
